@@ -1,0 +1,280 @@
+.container-child2 {
+  position: absolute;
+  top: 149px;
+  left: 278px;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-white);
+  box-shadow: 0px 1px 4px 2px rgba(196, 193, 193, 0.25);
+  width: 1216px;
+  height: 730px;
+}
+.add-user-title {
+  position: absolute;
+  top: -61px;
+  left: 5px;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  color: var(--color-dimgray-200);
+}
+
+/* ----------------------------------------------- */
+.first-name {
+  position: absolute;
+  top: 40px;
+  left: 15px;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.first-input {
+  position: absolute;
+  top: 80px;
+  left: 5px;
+  font-weight: 500;
+  display: inline-block;
+  width: 295px;
+  height: 39px;
+  color: var(--color-dimgray-400);
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+
+/* ------------------------------------------------------------------ */
+.last-name {
+  position: absolute;
+  top: 40px;
+  left: 318px;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.last-input {
+  position: absolute;
+  top: 80px;
+  left: 310px;
+  font-weight: 500;
+  color: var(--color-dimgray-400);
+  display: inline-block;
+  width: 295px;
+  height: 39px;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+
+/* --------------------------------------------------------------------- */
+
+.role {
+  position: absolute;
+  top: 40px;
+  left: 623px;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.role-input {
+  position: absolute;
+  top: 80px;
+  left: 613px;
+  font-weight: 500;
+  color: var(--color-dimgray-400);
+  display: inline-block;
+  width: 295px;
+  height: 39px;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+
+/* ------------------------------------------------------------------ */
+
+.department {
+  position: absolute;
+  top: 40px;
+  left: 924px;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.department-input {
+  position: absolute;
+  top: 80px;
+  left: 917px;
+  font-weight: 500;
+  color: var(--color-dimgray-400);
+  display: inline-block;
+  width: 295px;
+  height: 39px;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+
+/* ------------------------------------------------------------------- */
+
+.email {
+  position: absolute;
+  top: 188px;
+  left: 15px;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.email-input {
+  position: absolute;
+  top: 227px;
+  left: 5px;
+  font-weight: 500;
+  display: inline-block;
+  width: 295px;
+  height: 39px;
+  color: var(--color-dimgray-400);
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+
+/* ------------------------------------------------------------------------- */
+.phone-number {
+  position: absolute;
+  top: 188px;
+  left: 318px;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.phone-number-input {
+  position: absolute;
+  top: 227px;
+  left: 310px;
+  font-weight: 500;
+  display: inline-block;
+  width: 295px;
+  height: 39px;
+  color: var(--color-dimgray-400);
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+
+/* ----------------------------------------------------------------- */
+
+.password {
+  position: absolute;
+  top: 188px;
+  left: 623px;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.password-input {
+  position: absolute;
+  top: 227px;
+  left: 613px;
+  font-weight: 500;
+  display: inline-block;
+  width: 295px;
+  height: 39px;
+  color: var(--color-dimgray-400);
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+
+/* --------------------------------------------------------------------- */
+
+.confirm-password {
+  position: absolute;
+  top: 188px;
+  left: 924px;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.confirm-password-input {
+  position: absolute;
+  top: 227px;
+  left: 917px;
+  font-weight: 500;
+  display: inline-block;
+  width: 295px;
+  height: 39px;
+  color: var(--color-dimgray-400);
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+
+
+/* ---------------------------------------------------------------------- */
+.address {
+  position: absolute;
+  top: 326px;
+  left: 15px;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.address-input {
+  font-size: x-large;
+  position: absolute;
+  top: 365px;
+  left: 15px;
+  font-weight: 500;
+  display: inline-block;
+  width: 559px;
+  height: 96px;
+  color: var(--color-dimgray-400);
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+}
+
+/* --------------------------------------------------------------- */
+.create {
+  position: absolute;
+  top: 639px;
+  left: 615px;
+  width: 143px;
+  height: 57px;
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+  font-size: large;
+  display: inline-block;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightseagreen);
+  cursor: pointer;
+
+}
+
+.cancel {
+  position: absolute;
+  top: 639px;
+  left: 451px;
+  width: 143px;
+  height: 57px;
+  color: var(--color-gray-200);
+  font-family: var(--font-poppins);
+  font-size: large;
+  display: inline-block;
+  border-radius: var(--br-3xs);
+  cursor: pointer;
+}
+.toogle{
+  position: absolute;
+  top: 541px;
+  left: 132px;
+}
+.mat-mdc-slide-toggle .mdc-label {
+  font-size: none;
+}

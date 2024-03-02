@@ -1,0 +1,38 @@
+<div class="container">
+    <!-- -----------------------------------NavBar--------------------------- -->
+    <nav class="navbar">
+      <img class="vector-icon5" alt="" src="./assets/vector@2x.png">
+      <img class="image-11-icon2" alt="" src="./assets/image-11@2x.png" />
+    
+      <select class="location">
+        <option value=""> 🌏 Noida </option>
+        <option value=" Noida">Noida</option>
+        <option value="Gurgaon">Gurgaon</option>
+        <option value="New Delhi">New Delhi</option>
+        <option value="Pune">Pune</option>
+        <option value="Bengaluru">Bengaluru</option>
+        <option value="Hyderabad">Hyderabad</option>
+      </select>
+    </nav>
+    
+    <!-- ---------------------------------SideBar-------------------------------->
+    <div class="wrapper">
+      <div class="sidebar">
+        <img class="logo" alt="" src="./assets/microsoftteamsimage-14@2x.png">
+        <ul>
+          <li><a (click)="navigateTo('dashboard')">Dashboard</a></li>
+          <li><a href="#">Project</a></li>
+          <li><a href="#">Department</a></li>
+          <li><a (click)="navigateTo('user')">User</a></li>
+          <li><a href="#">Flight Planning</a></li>
+          <li><a href="#">Workspace</a></li>
+          <li><a href="#">Asset</a></li>
+          <li><a href="#">Vendor</a></li>
+          <li><a href="#">Client</a> </li>
+          <li><a href="#">Location</a></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+    
+    <router-outlet></router-outlet>

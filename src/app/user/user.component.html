@@ -1,0 +1,40 @@
+<div class="container-child1">
+    <div class="user-title">User</div>
+<!------------------------------------nav------------------------------------->
+    <nav class="nav1">
+        <button class="userBTN" type="button"(click)="navigateTo('add-user')" > + USER </button>
+        <img class="grid-view-icon2" alt="" (click)="navigateTo('user-2')" src="./assets/grid-view2@2x.png">
+        <img class="list-alt-icon1" alt="" src="./assets/list-alt1@2x.png">
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="🔍 Search for names..">
+    </nav>
+
+<!----------------------------------------Table------------------------------->
+<div>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Phone</th>
+          <th>Email</th>
+          <th>Department</th>
+          <th>Role</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of userList">
+          <td><span>{{item.first_name}}</span></td>
+          <td><span>{{item.last_name}}</span></td>
+          <td><span>{{item.phone}}</span></td>
+          <td><span>{{item.email}}</span></td>
+          <td><span>{{item.department}}</span></td>
+          <td><span>{{item.role}}</span></td>
+          <td><button class="remove" type="button" (click)="remove(item)">Remove</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+    
+    
+</div>

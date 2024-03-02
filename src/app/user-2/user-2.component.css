@@ -1,0 +1,62 @@
+.container-child3 {
+    position: absolute;
+    top: 149px;
+    left: 278px;
+    width: 1216px;
+    height: 730px;
+}
+.user-title {
+    position: absolute;
+    top: -61px;
+    left: 5px;
+    font-size: var(--font-size-5xl);
+    font-weight: 600;
+    color: var(--color-dimgray-200);
+}
+.nav1{
+    margin: 49px;
+}
+.userBTN {
+    position: absolute;
+    top: 34px;
+    left: 1070px;
+    width: 122px;
+    height: 43px;
+    font-weight: 600;
+    color:#fff;
+    font-size: var(--font-size-base);
+    border-radius: var(--br-7xs);
+    background-color: var(--color-lightseagreen);
+    cursor: pointer;
+}
+.grid-view-icon2{
+    position: absolute;
+    top: 42px;
+    left: 1023px;
+    width: 29px;
+    height: 29px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.list-alt-icon1{
+    position: absolute;
+    top: 42px;
+    left: 988px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    cursor: pointer;
+}
+#myInput{
+  position: absolute;
+  top: 36px;
+  left: 32px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-lightgray-100);
+  box-sizing: border-box;
+  width: 430px;
+  height: 44px
+}
